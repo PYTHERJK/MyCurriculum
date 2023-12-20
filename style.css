@@ -42,8 +42,7 @@ main {
 
 .portifolio {
     text-align: center;
-    border: 1px solid var(--cor-fundo-portifolio)
-    ;
+    border: 1px solid var(--cor-fundo-portifolio);
     width: 45%;
     margin: 0 auto;
     padding: .5rem;
@@ -68,4 +67,27 @@ main {
 
 .pessoais {
     margin: 3.5rem 0 0.1rem 0;
+}
+
+@media screen and (max-width: 1020px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    main {
+        height: 100%;
+        width: 100vw;
+        padding: 1.3rem 1rem;
+    }
+
+    .cabecalho li .nome{
+        font-size: 10px;
+    }
+
+    .portifolio a{
+        font-size: 10px;
+    }
+
+
 }
